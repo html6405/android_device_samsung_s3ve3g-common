@@ -95,6 +95,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Shared libraries
+PRODUCT_PACKAGES += \
+    libmdmdetect \
+    libqmi_cci \
+    libqmiservices
+
 # Shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_k.mk)
 
