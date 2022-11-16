@@ -40,10 +40,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-# Doze
-PRODUCT_PACKAGES += \
-    SamsungDoze
-
 # FlipFlap
 PRODUCT_PACKAGES += \
     FlipFlap
