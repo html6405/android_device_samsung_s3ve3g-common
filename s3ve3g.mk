@@ -44,6 +44,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PACKAGES += \
     FlipFlap
 
+# FM
+PRODUCT_PACKAGES += \
+    FMRadio
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
